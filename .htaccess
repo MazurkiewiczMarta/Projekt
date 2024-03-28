@@ -1,0 +1,12 @@
+### PROTECT FILES ###
+<FilesMatch "\.(htaccess|htpasswd|ini|fla|psd|log|sh)$">
+Order Allow,Deny
+Deny from all
+</FilesMatch>
+
+RewriteEngine on
+RewriteRule zatrudnij-architekta-projekty html.html
+RewriteRule o-mnie omnie.html
+RewriteRule oferta-projekty-od-a-do-z oferta.html
+RewriteRule cv-architekt-architektwnetrz cv.html
+RewriteRule kontakt-architekt-architektwnetrz kontakt.html
